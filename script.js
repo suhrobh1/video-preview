@@ -7,4 +7,5 @@ function playVideo(){
 
 function pauseVideo(){
     video.pause();
+    video.currentTime= 0;
 }
